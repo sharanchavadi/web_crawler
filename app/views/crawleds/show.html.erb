@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @crawled.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @crawled.phone %>
+</p>
+
+<%= link_to 'Edit', edit_crawled_path(@crawled) %> |
+<%= link_to 'Back', crawleds_path %>
